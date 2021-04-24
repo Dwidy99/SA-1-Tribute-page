@@ -1,0 +1,77 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karantina&family=Lato:wght@300&display=swap');
+
+/* Main */
+#main {
+	display: grid;
+	margin: 20px 10px;
+	border-radius: 3px;
+	background-color: #eaeaea;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	place-content: center;
+	place-items: center;
+}
+
+#title {
+	font-family: 'Karantina', cursive;
+}
+
+#main p {
+	font-family: 'Lato', sans-serif;
+}
+
+/* Figure */
+
+figure {
+	background-color: #fff;
+	width: 98%;
+	display: grid;
+	place-items: center;
+}
+
+#img-div {
+	padding: 10px;
+	border-radius: 3px;
+}
+
+#img-div #image {
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+#img-caption {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+/* Tribute-info */
+#tribute-info {
+	display: grid;
+	place-items: center;
+	width: 60%;
+}
+
+#tribute-info #headline,
+#tribute-info ul li h3 {
+	font-family: 'Karantina', cursive;
+}
+
+#tribute-info ul li p {
+	font-family: 'Lato', sans-serif;
+	margin: 10px 0;
+}
+
+/* Blockquote */
+blockquote p {
+	font-style: italic;
+}
