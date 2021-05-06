@@ -13,8 +13,7 @@ html {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 15px 10px;
-	border-radius: 3px;
+
 	background-color: #eaeaea;
 	place-items: center;
 }
@@ -46,17 +45,19 @@ figure img {
 #img-div {
 	padding: 10px;
 	border-radius: 3px;
+	box-sizing: border-box;
 }
 
 #img-caption {
 	font-family: 'Lato', sans-serif;
+	padding: 15px;
 	text-align: center;
 	margin-bottom: 15px;
 }
 
 /* Tribute-info */
 #tribute-info {
-	width: 95%;
+	padding: 10px;
 }
 
 #tribute-info h2 {
@@ -77,4 +78,15 @@ figure img {
 /* Blockquote */
 blockquote p {
 	font-style: italic;
+}
+
+@media (min-width: 615px) {
+	#main {
+		margin: 15px 10px;
+		border-radius: 10px;
+	}
+
+	#tribute-info {
+		width: 60%;
+	}
 }
